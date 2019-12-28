@@ -16,25 +16,46 @@
 
 ## 8. Remove/delete allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" from the code snippet
 
-'''html
+```html
+<!-- before -->
+<iframe
+  src="https://docs.google.com/presentation/d/e/2PACX-1vQT4AZlNL6eLT560lB7KnyrP_EtewXLhBmg9G-49bzg6vNX9YVjpA83L_QnKqo323wziQWVl7DScoWW/embed?start=false&loop=false&delayms=3000"
+  frameborder="0"
+  width="960"
+  height="569"
+  allowfullscreen="true"
+  mozallowfullscreen="true"
+  webkitallowfullscreen="true"
+></iframe>
 
-   <!-- before -->
-   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQT4AZlNL6eLT560lB7KnyrP_EtewXLhBmg9G-49bzg6vNX9YVjpA83L_QnKqo323wziQWVl7DScoWW/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-   <!-- after -->
-   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQT4AZlNL6eLT560lB7KnyrP_EtewXLhBmg9G-49bzg6vNX9YVjpA83L_QnKqo323wziQWVl7DScoWW/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" ></iframe>
-   '''
+<!-- after -->
+<iframe
+  src="https://docs.google.com/presentation/d/e/2PACX-1vQT4AZlNL6eLT560lB7KnyrP_EtewXLhBmg9G-49bzg6vNX9YVjpA83L_QnKqo323wziQWVl7DScoWW/embed?start=false&loop=false&delayms=3000"
+  frameborder="0"
+  width="960"
+  height="569"
+></iframe>
+```
 
 ## 9. change width and height property to "100%"
 
-'''html
+```html
+<!-- before -->
+<iframe
+  src="https://docs.google.com/presentation/d/e/2PACX-1vQT4AZlNL6eLT560lB7KnyrP_EtewXLhBmg9G-49bzg6vNX9YVjpA83L_QnKqo323wziQWVl7DScoWW/embed?start=false&loop=false&delayms=3000"
+  frameborder="0"
+  width="960"
+  height="569"
+></iframe>
 
-   <!-- before -->
-   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQT4AZlNL6eLT560lB7KnyrP_EtewXLhBmg9G-49bzg6vNX9YVjpA83L_QnKqo323wziQWVl7DScoWW/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569"></iframe>
-
-   <!-- after -->
-   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQT4AZlNL6eLT560lB7KnyrP_EtewXLhBmg9G-49bzg6vNX9YVjpA83L_QnKqo323wziQWVl7DScoWW/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" ></iframe>
-   '''
+<!-- after -->
+<iframe
+  src="https://docs.google.com/presentation/d/e/2PACX-1vQT4AZlNL6eLT560lB7KnyrP_EtewXLhBmg9G-49bzg6vNX9YVjpA83L_QnKqo323wziQWVl7DScoWW/embed?start=false&loop=false&delayms=3000"
+  frameborder="0"
+  width="100%"
+  height="100%"
+></iframe>
+```
 
 ## 10. This step will only work on VS code with a plugin name Live server installed [click hear to install vscode](https://code.visualstudio.com/) [click hear to install Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
