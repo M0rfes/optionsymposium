@@ -64,3 +64,5 @@
 ## 12. This will by default serve all files on [localhost:5500](http://localhost:5500)
 
 ## 13. index.html is served by default. To view other html files put a / in front of the url and name of the file
+
+## If you don' what to Install any thing just double click on the html file in file exposer/manager
