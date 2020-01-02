@@ -79,6 +79,7 @@ ul {
     align-items: center;
     justify-content: flex-end;
     font-size: 3vw;
+    padding: 1rem;
 }
 
 img {
