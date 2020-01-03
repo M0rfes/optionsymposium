@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('./AvenirLTStd-Book.otf') format('truetype'), /* Safari, Android, iOS */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    /* font-family: 'MyWebFont' */
+}
+
+main {
+    height: 80%;
+    width: 80%;
+    margin-top: 20vh;
+    /* display: none; */
+    background-color: white;
+}
+
+.logo {
+    position: absolute;
+}
+
+.v {
+    height: 80%;
+    width: 10%;
+    top: 20vh;
+    /* background-color: white; */
+}
+
+.r {
+    right: 0;
+}
+
+.l {
+    left: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 10%;
+}
+
+li {
+    background-color: white;
+}
+
+.h {
+    height: 20%;
+    width: 100%;
+}
+
+.t {
+    top: 0;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.t div {
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 3vw;
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
