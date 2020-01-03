@@ -37,7 +37,7 @@ main {
     height: 80%;
     width: 10%;
     top: 20vh;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .r {
@@ -57,6 +57,10 @@ ul {
     height: 100%;
     width: 100%;
     padding: 0 10%;
+}
+
+li {
+    background-color: white;
 }
 
 .h {
